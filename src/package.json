@@ -1,0 +1,33 @@
+{
+  "name": "inventario-suporte-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Este projeto é uma API de Gestão de Inventário desenvolvida para resolver problemas reais de controle de hardware enfrentados em ambientes de Suporte Técnico. Utiliza Node.js, TypeScript e PostgreSQL.",
+  "main": "index.js",
+  "scripts": {
+  "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+  "build": "tsc"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdsjr/inventario-suporte-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdsjr/inventario-suporte-api/issues"
+  },
+  "homepage": "https://github.com/mdsjr/inventario-suporte-api#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pg": "^8.19.0"
+  }
+}
